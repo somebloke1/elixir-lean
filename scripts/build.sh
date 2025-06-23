@@ -41,6 +41,11 @@ check_deps() {
     if [ ${#missing[@]} -ne 0 ]; then
         error "Missing dependencies: ${missing[*]}\nInstall with: sudo apt-get install ${missing[*]}"
     fi
+    
+    # Check for Elixir/Mix
+    if ! command -v mix &> /dev/null; then
+        error "Elixir is not installed!\n\nTo install Elixir:\n1. Install Erlang: sudo apt-get install erlang\n2. Install Elixir: sudo apt-get install elixir\n\nOr use asdf version manager:\n1. Install asdf: https://asdf-vm.com/guide/getting-started.html\n2. asdf plugin add erlang\n3. asdf plugin add elixir\n4. asdf install erlang latest\n5. asdf install elixir latest"
+    fi
 }
 
 # Download Buildroot if needed
