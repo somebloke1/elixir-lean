@@ -11,13 +11,12 @@ MicroBEAM is an experimental ultra-minimal Linux VM architecture where the BEAM 
 
 ## Directory Structure
 ```
-microbeam/
+elixir-lean/
 ├── kernel/          # Linux kernel configuration
 ├── beam-init/       # Custom PID 1 launcher
 ├── buildroot/       # Buildroot configuration
 ├── elixir-app/      # Sample Elixir application
-├── scripts/         # Build automation
-└── images/          # Output images
+└── scripts/         # Build automation
 ```
 
 ## Build Requirements

@@ -9,7 +9,7 @@
 - Development tools:
   ```bash
   sudo apt-get install build-essential git wget cpio bc \
-                       qemu-system-x86 elixir erlang-dev \
+                       qemu-system-x86-64 elixir erlang-dev \
                        libssl-dev libncurses5-dev
   ```
 
@@ -17,8 +17,8 @@
 
 1. **Clone the repository**
    ```bash
-   git clone https://github.com/elixir-lean/microbeam
-   cd microbeam
+   git clone https://github.com/elixir-lean/elixir-lean
+   cd elixir-lean
    ```
 
 2. **Run the build script**
@@ -161,6 +161,6 @@ For production use:
 
 ## Getting Help
 
-- GitHub Issues: https://github.com/elixir-lean/microbeam/issues
+- GitHub Issues: https://github.com/elixir-lean/elixir-lean/issues
 - Documentation: See ARCHITECTURE.md for detailed information
 - Elixir Forum: https://elixirforum.com/
