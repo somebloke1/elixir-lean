@@ -1,0 +1,9 @@
+NAME="MicroBEAM"
+VERSION="0.1.0"
+ID=microbeam
+ID_LIKE=linux
+PRETTY_NAME="MicroBEAM 0.1.0"
+VERSION_ID="0.1.0"
+HOME_URL="https://github.com/elixir-lean/microbeam"
+SUPPORT_URL="https://github.com/elixir-lean/microbeam/issues"
+BUG_REPORT_URL="https://github.com/elixir-lean/microbeam/issues"

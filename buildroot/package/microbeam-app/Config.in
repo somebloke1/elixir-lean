@@ -1,0 +1,9 @@
+config BR2_PACKAGE_MICROBEAM_APP
+	bool "microbeam-app"
+	depends on BR2_PACKAGE_ERLANG
+	depends on BR2_PACKAGE_ELIXIR
+	select BR2_PACKAGE_OPENSSL
+	help
+	  MicroBEAM Elixir application - minimal HTTP server
+
+	  https://github.com/elixir-lean/microbeam

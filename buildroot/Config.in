@@ -1,0 +1,2 @@
+source "$BR2_EXTERNAL_MICROBEAM_PATH/package/beam-init/Config.in"
+source "$BR2_EXTERNAL_MICROBEAM_PATH/package/microbeam-app/Config.in"
